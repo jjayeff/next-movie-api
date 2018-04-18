@@ -1,0 +1,20 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec \"mocha --recursive -R min\"",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mocha": "^5.0.5",
+    "mongoose": "^5.0.12",
+    "supertest": "^3.0.0"
+  }
+}
